@@ -1,22 +1,8 @@
 {
-    "name": "importgenius/phpspec-for-ci-extension",
+    "name": "tradedataservices/phpspec-for-ci-extension",
     "description": "PhpSpec for CodeIgniter",
     "type": "library",
     "license": "proprietary",
-    "authors": [
-        {
-            "name": "anton",
-            "email": "antolene@gmail.com"
-        },
-        {
-            "name": "albert don celis",
-            "email": "xalbertcelis@gmail.com"
-        },
-        {
-            "name": "ronnel layco",
-            "email": "ronnellayco@gmail.com"
-        }
-    ],
     "minimum-stability": "stable",
     "require": {
         "phpspec/phpspec": "2.4.*@stable"
