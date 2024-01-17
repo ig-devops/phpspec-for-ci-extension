@@ -1,0 +1,4 @@
+default:
+  suites:
+    extension:
+      contexts: [ ApplicationContext, FilesystemContext ]

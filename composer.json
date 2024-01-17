@@ -1,0 +1,37 @@
+{
+    "name": "importgenius/phpspec-for-ci-extension",
+    "description": "PhpSpec for CodeIgniter",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "anton",
+            "email": "antolene@gmail.com"
+        },
+        {
+            "name": "albert don celis",
+            "email": "xalbertcelis@gmail.com"
+        },
+        {
+            "name": "ronnel layco",
+            "email": "ronnellayco@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpspec/phpspec": "2.4.*@stable"
+    },
+    "require-dev": {
+        "henrikbjorn/phpspec-code-coverage": "1.0.*@dev",
+        "squizlabs/php_codesniffer": "2.3.*@stable",
+        "phpmd/phpmd": "2.3.*@stable",
+        "behat/behat": "3.1.*@rc",
+        "bossa/phpspec2-expect": "1.0.*@stable"
+    },
+    "autoload": {
+        "psr-0": {"": "src"}
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

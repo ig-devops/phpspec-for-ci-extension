@@ -1,0 +1,17 @@
+formatter.name: progress
+suites:
+    default:
+        namespace: ImportGenius\PhpSpecForCi
+
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+
+code_coverage:
+    format: [html, text]
+
+    blacklist:
+        - 'spec'
+        - 'vendor'
+
+    output:
+        html: coverage
